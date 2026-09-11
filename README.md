@@ -18,7 +18,7 @@ The project follows these main steps:
 # Dataset
 The project uses the (Ames Housing Dataset), which contains information about residential properties and their sale prices.
 * 1,460 Rows
-* 80 Features
+* 81 Features
 * Target Variable: SalePrice
 The target variable represents the final sale price of each house.
 
