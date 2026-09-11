@@ -1,35 +1,90 @@
 # House Price Prediction
-A Machine Learning project that predicts house sale prices using the Ames Housing dataset.
 
 # Project Overview
-The project focuses on preparing and analyzing housing data, selecting relevant features, and building Machine Learning models to predict house prices.
+This project focuses on predicting house sale prices using Machine Learning techniques. The project includes data cleaning, exploratory data analysis, feature selection, model training, and evaluation.
+The goal is to identify the most important factors affecting house prices and build Machine Learning models capable of predicting the sale price of a house.
 
-# Project Steps
-1. Data Cleaning
-2. Handling Missing Values
-3. Exploratory Data Analysis (EDA)
-4. Correlation Analysis
-5. Feature Selection
-6. Model Training
-7. Model Evaluation
-8. Price Prediction
-
-# Machine Learning Models
-- Linear Regression
-- Random Forest
-- Support Vector Regression (SVR)
-- K-Nearest Neighbors (KNN)
-
-# Technologies
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+# What Does the Project Do?
+The project follows these main steps:
+* Clean and preprocess the housing dataset.
+* Handle missing values and improve data quality.
+* Perform Exploratory Data Analysis (EDA).
+* Analyze correlations between features and the target variable.
+* Select the most relevant features for prediction.
+* Train different Machine Learning models.
+* Evaluate and compare model performance.
+* Predict house sale prices.
 
 # Dataset
-Ames Housing Dataset from Kaggle containing 1,460 records and 80 features.
+The project uses the (Ames Housing Dataset), which contains information about residential properties and their sale prices.
+* 1,460 Rows
+* 80 Features
+* Target Variable: SalePrice
+The target variable represents the final sale price of each house.
 
-# Objective
-The main objective is to identify the factors that influence house prices and build models capable of predicting the sale price of a house.
+# Exploratory Data Analysis
+Several analysis techniques were used to understand the dataset, including:
+* Descriptive statistics
+* Missing-value analysis
+* Correlation analysis
+* Data visualization
+* Feature relationship analysis
+Correlation analysis was used to identify features with stronger relationships with  SalePrice and support the feature selection process.
+
+# Machine Learning Models
+The following Machine Learning algorithms were implemented and compared:
+* Linear Regression
+* Random Forest
+* Support Vector Regression (SVR)
+* K-Nearest Neighbors (KNN)
+The models were evaluated to determine which approach provides the best performance for house price prediction.
+
+# Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Google Colab
+
+# Getting Started
+## 1. Clone the repository
+```bash
+git clone https://github.com/AGGNEST/House_Price_Prediction.git
+```
+
+## 2. Open the Notebook
+Open:
+```text
+House-Price-Prediction.ipynb
+```
+
+You can run the project using Google Colab or Jupyter Notebook.
+
+## 3. Install the required libraries
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+## 📁 Project Structure
+```text
+House-Price-Prediction/
+│
+├── House-Price-Prediction.ipynb
+└── README.md
+```
+
+## 💡 Why Is This Project Useful?
+
+This project demonstrates a complete Machine Learning workflow, from preparing raw data to building predictive models.
+
+It also demonstrates practical skills in:
+* Data Cleaning
+* Exploratory Data Analysis
+* Feature Selection
+* Data Visualization
+* Machine Learning
+* Model Evaluation
+* Python Programming
+
