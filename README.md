@@ -57,7 +57,7 @@ git clone https://github.com/AGGNEST/House_Price_Prediction.git
 ## 2. Open the Notebook
 Open:
 ```text
-House-Price-Prediction.ipynb
+House_Price_Prediction.ipynb
 ```
 
 You can run the project using Google Colab or Jupyter Notebook.
@@ -69,9 +69,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 ## 📁 Project Structure
 ```text
-House-Price-Prediction/
+House_Price_Prediction/
 │
-├── House-Price-Prediction.ipynb
+├── House_Price_Prediction.ipynb
 └── README.md
 ```
 
